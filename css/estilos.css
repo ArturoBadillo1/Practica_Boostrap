@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(197, 193, 189);
+}
+
+nav{
+    background-color: #f3972d;
+    overflow: hidden;
+    display:grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    font-family: sans-serif;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+nav ul{
+    list-style: none;
+    left: 550px;
+    position: relative;
+}
+nav ul li{
+    float: left;
+    margin: 15px;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.menu{
+    text-decoration: none;
+    color: white;
+
+}
+.menu:hover{
+    background-color: #be6908;
+}
+footer p{
+    color: white;
+    background-color: #e4760f;
+    padding: 30px;
+    text-align: center;
+    font-size: x-large;
+}
+h1,h2{
+    text-align: center;
+}
+.card-body{
+    display:block;
+    margin:auto
+}
+.img1{
+    width: 100px;
+    display:block;
+    margin:auto;
+}
+.img-logo{
+    display:block;
+    margin:auto;
+}
+hr{
+    height: 310px;
+    width: 100%;
+    background-color: rgb(255, 102, 0);
+}
